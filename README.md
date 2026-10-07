@@ -46,7 +46,7 @@ Needs the PICO Spatial SDK (`PICO_HOME`) and JDK 21. `tools/dev.sh` (Git Bash) w
 - [docs/test/](docs/test/): QA reports, rounds 1 – 5c.
 - [docs/DEMO.md](docs/DEMO.md): how to try it in the emulator.
 - [AGENTS.md](AGENTS.md): guidance for coding agents: structure, runtime facts learned on the emulator, debug commands.
-- Figma: TBD
+- Figma: https://www.figma.com/design/x5myBFklw420gFWSYCDanU (01 产品定义 / 02 空间布局 / 03 关键画面 / 04 组件规范)
 
 ## 字体 Font
 
