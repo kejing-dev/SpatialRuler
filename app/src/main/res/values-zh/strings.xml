@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 简体中文。数字与单位符号两种语言相同；小数点一律用「.」。第 4 轮（简化规格）：面板只放图标，文字只留在对话框、提示条、菜单的「全部清除」、引导气泡和无障碍描述里。 -->
+<resources>
+    <string name="app_name">空间尺</string>
+
+    <string name="lcd_starting">正在准备…</string>
+    <string name="lcd_armed">拉到下一点</string>
+    <string name="lcd_tuning_plain">微调</string>
+    <string name="lcd_lost">定位丢失 · 已冻结</string>
+
+    <string name="action_undo">撤销</string>
+    <string name="action_snap">吸附</string>
+    <string name="action_more">更多</string>
+    <string name="action_close">关闭</string>
+
+    <string name="menu_clear">全部清除</string>
+    <string name="menu_exit">退出空间尺</string>
+    <string name="lang_system">跟随系统</string>
+    <string name="lang_en">英文</string>
+
+    <string name="pin_tune">微调</string>
+    <string name="pin_remove">删除钉</string>
+    <string name="step_left">向左 1 mm</string>
+    <string name="step_right">向右 1 mm</string>
+    <string name="step_near">靠近 1 mm</string>
+    <string name="step_far">远离 1 mm</string>
+    <string name="step_down">向下 1 mm</string>
+    <string name="step_up">向上 1 mm</string>
+
+    <string name="grade_contact">触测</string>
+    <string name="grade_fine">细瞄</string>
+    <string name="grade_coarse">粗瞄</string>
+    <string name="grade_far">偏远</string>
+    <string name="grade_unsaved">未保存</string>
+
+    <string name="tape_retract">收回这条尺</string>
+
+    <string name="reticle_fine_gear">细瞄 ×4</string>
+    <string name="reticle_far">超过 3 m · 精度下降</string>
+    <string name="reticle_none">这里没有表面</string>
+    <string name="reticle_mapping">表面还在识别</string>
+
+    <string name="dialog_clear_body">清除后无法撤销。</string>
+    <string name="action_cancel">取消</string>
+    <string name="action_clear">清除</string>
+
+    <string name="dialog_blocked_title">空间能力不可用</string>
+    <string name="dialog_blocked_body">请在系统设置中允许透视、平面识别和空间锚点。</string>
+    <string name="action_retry">重试</string>
+    <string name="action_exit">退出</string>
+
+    <plurals name="count_pins">
+        <item quantity="other">%1$d 颗钉</item>
+    </plurals>
+    <plurals name="count_tapes">
+        <item quantity="other">%1$d 条尺</item>
+    </plurals>
+
+    <string name="snack_elsewhere">不在此空间</string>
+    <string name="snack_unsaved">钉没能保存</string>
+    <string name="snack_saved">已保存</string>
+    <string name="snack_lost">定位丢失 · 慢慢环顾</string>
+    <string name="snack_recovered">定位已恢复</string>
+    <string name="snack_no_source">抬起手或拿起手柄</string>
+    <string name="snack_no_surface">这里没有表面</string>
+    <string name="snack_not_mapped">表面还在识别</string>
+    <string name="snack_duplicate">已有这条尺</string>
+    <string name="snack_cleared">已全部清除</string>
+    <string name="snack_tape_limit">最多 20 条尺，先收回一条</string>
+
+    <string name="coach_hint">点两个点，或按住拉出</string>
+    <string name="coach_got_it">知道了</string>
+</resources>

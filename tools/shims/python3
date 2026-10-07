@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# The plugin gate scripts call python3; on this machine that name is the Windows Store alias.
+exec python "$@"

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  English (default). Numbers and unit symbols are the same in every language; the decimal separator is always ".".
+  Round 4 (simplify spec): the panels carry icons; words remain only in the dialogs, the snackbars, the menu's
+  "Clear all", the coachmark and as content descriptions of icon-only controls and status glyphs.
+-->
+<resources>
+    <string name="app_name">Spatial Ruler</string>
+
+    <!-- readout window on the instrument body: the annunciator glyphs (descriptions) and the empty value -->
+    <string name="lcd_starting">Getting ready…</string>
+    <string name="lcd_armed">Pull to next point</string>
+    <string name="lcd_tuning_plain">Tuning</string>
+    <string name="lcd_lost">Tracking lost · frozen</string>
+    <string name="lcd_empty" translatable="false">— —</string>
+
+    <!-- body keys and menu controls (descriptions) -->
+    <string name="action_undo">Undo</string>
+    <string name="action_snap">Snap</string>
+    <string name="action_more">More</string>
+    <string name="action_close">Close</string>
+
+    <!-- unit segments -->
+    <string name="unit_m" translatable="false">m</string>
+    <string name="unit_cm" translatable="false">cm</string>
+    <string name="unit_mm" translatable="false">mm</string>
+    <string name="unit_ftin" translatable="false">ft·in</string>
+
+    <!-- More menu -->
+    <string name="menu_clear">Clear all</string>
+    <string name="menu_exit">Exit Spatial Ruler</string>
+    <string name="lang_system">System default</string>
+    <string name="lang_zh" translatable="false">中文</string>
+    <string name="lang_en">English</string>
+    <string name="lang_en_short" translatable="false">EN</string>
+
+    <!-- pin strip (descriptions) -->
+    <string name="pin_tune">Fine-tune</string>
+    <string name="pin_remove">Remove pin</string>
+    <string name="step_left">Left 1 mm</string>
+    <string name="step_right">Right 1 mm</string>
+    <string name="step_near">Nearer 1 mm</string>
+    <string name="step_far">Farther 1 mm</string>
+    <string name="step_down">Down 1 mm</string>
+    <string name="step_up">Up 1 mm</string>
+
+    <!-- grades and marks (descriptions of the badge glyphs) -->
+    <string name="grade_contact">Contact</string>
+    <string name="grade_fine">Fine</string>
+    <string name="grade_coarse">Coarse</string>
+    <string name="grade_far">Far</string>
+    <string name="grade_unsaved">Unsaved</string>
+
+    <!-- tape strip -->
+    <string name="tape_retract">Retract this tape</string>
+
+    <!-- reticle tag (tracked-ray channels): figures shown, words as descriptions -->
+    <string name="reticle_gear" translatable="false">×4</string>
+    <string name="reticle_far_figure" translatable="false">▲ &gt; 3 m</string>
+    <string name="reticle_fine_gear">Fine ×4</string>
+    <string name="reticle_far">Over 3 m · less precise</string>
+    <string name="reticle_none">No surface here</string>
+    <string name="reticle_mapping">Still mapping</string>
+
+    <!-- clear confirmation -->
+    <string name="dialog_clear_body">This can\'t be undone.</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_clear">Clear</string>
+
+    <!-- capabilities unavailable -->
+    <string name="dialog_blocked_title">Spatial features unavailable</string>
+    <string name="dialog_blocked_body">Allow passthrough, plane detection and anchors in Settings.</string>
+    <string name="action_retry">Retry</string>
+    <string name="action_exit">Exit</string>
+
+    <!-- counts (descriptions of the icon + figure groups) -->
+    <plurals name="count_pins">
+        <item quantity="one">%1$d pin</item>
+        <item quantity="other">%1$d pins</item>
+    </plurals>
+    <plurals name="count_tapes">
+        <item quantity="one">%1$d tape</item>
+        <item quantity="other">%1$d tapes</item>
+    </plurals>
+
+    <!-- snackbar: at most six words after the icon -->
+    <string name="snack_elsewhere">not in this space</string>
+    <string name="snack_unsaved">Pin not saved</string>
+    <string name="snack_saved">Saved</string>
+    <string name="snack_lost">Tracking lost · look around</string>
+    <string name="snack_recovered">Tracking recovered</string>
+    <string name="snack_no_source">Raise a hand or controller</string>
+    <string name="snack_no_surface">No surface here</string>
+    <string name="snack_not_mapped">Still mapping</string>
+    <string name="snack_duplicate">Tape already exists</string>
+    <string name="snack_cleared">All cleared</string>
+    <string name="snack_tape_limit">Max 20 tapes · retract one</string>
+
+    <!-- first-run hint -->
+    <string name="coach_hint">Tap two points, or hold and pull</string>
+    <string name="coach_got_it">Got it</string>
+</resources>
