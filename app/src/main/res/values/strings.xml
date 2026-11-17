@@ -5,7 +5,7 @@
   "Clear all", the coachmark and as content descriptions of icon-only controls and status glyphs.
 -->
 <resources>
-    <string name="app_name">Spatial Ruler</string>
+    <string name="app_name">空间尺 Spatial Ruler</string>
 
     <!-- readout window on the instrument body: the annunciator glyphs (descriptions) and the empty value -->
     <string name="lcd_starting">Getting ready…</string>

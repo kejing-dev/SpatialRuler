@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- 简体中文。数字与单位符号两种语言相同；小数点一律用「.」。第 4 轮（简化规格）：面板只放图标，文字只留在对话框、提示条、菜单的「全部清除」、引导气泡和无障碍描述里。 -->
 <resources>
-    <string name="app_name">空间尺</string>
+    <string name="app_name">空间尺 Spatial Ruler</string>
 
     <string name="lcd_starting">正在准备…</string>
     <string name="lcd_armed">拉到下一点</string>
